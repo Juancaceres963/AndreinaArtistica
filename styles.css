@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  font-family: "Sora", sans-serif;
+}
+
+h1,
+h2,
+h3 h4 {
+  font-family: "Crete Round", serif;
+}
+
+#me {
+  width: auto;
+  height: 500px;
+  margin: 30px 30px 0% 30px;
+}
+
+.information-2 {
+  margin: 0px 30px 50px 0px;
+}
+
+.text-img {
+  display: flex;
+  position: relative;
+}
+
+.precio {
+  border: 6px double rgba(65, 0, 90, 0.596);
+  border-radius: 20px;
+  width: calc(100% / 3);
+  height: 440px;
+  padding: 2% 0;
+}
+
+.separacion {
+  border: 2px solid rgba(65, 0, 90, 0.596);
+  margin: 0 50px;
+}
+
+.separacion-1 {
+  border: 2px solid rgba(65, 0, 90, 0.596);
+  margin: 50px;
+}
+
+#header {
+  display: inline;
+  position: fixed;
+  background-color: rgba(65, 0, 90);
+  width: 100vw;
+  height: auto;
+}
+
+#header-img {
+  left: 60px;
+  width: auto;
+  max-width: 69px;
+  height: auto;
+  position: absolute;
+}
+
+.navbar,
+a {
+  font-size: 25px;
+  color: white;
+  padding: 10px 80px 10px 0;
+  text-decoration: none;
+  float: right;
+  font-family: "Crete Round", serif;
+}
+
+h3 {
+  font-size: 25px;
+  padding: 10px 0 5px 0;
+}
+.global-sections {
+  padding-top: 70px;
+}
+.cartas-precio {
+  display: flex;
+  flex-direction: row;
+  gap: calc(100% / 10);
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.precio {
+  background-color: rgba(203, 179, 226, 0.801);
+  box-shadow: 0 10px 20px 2px rgb(0 0 0 / 30%);
+}
+
+p.information-1,
+li,
+.information-2 {
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.punto {
+  margin-left: 12%;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: blueviolet;
+  padding: 0px 50px;
+}
+
+.cuerpo {
+  position: absolute;
+  top: 100px;
+  padding: 30px 50px;
+  z-index: -1;
+}
+
+.form {
+  margin: 0px 25% 0px 25%;
+}
+
+.information {
+  padding-bottom: 20px;
+}
+
+li {
+  padding: 0px 0 35px 0;
+}
+
+.youtube {
+  position: relative;
+  padding: 0 23% 0 27%;
+}
+
+.principal {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.precio .valor {
+  font-weight: bold;
+  font-size: 32px;
+  background-color: blueviolet;
+  width: 70%;
+  border: 4px ridge rgba(65, 0, 90, 0.596);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px 15%;
+  border-radius: 20px;
+}
+
+.precio .valor:hover {
+  width: 230px;
+  position: static;
+  transition: 1s;
+  margin: 20px 7%;
+  cursor: pointer;
+}
+
+.form-global {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(https://img.freepik.com/vector-gratis/fondo-acuarela-abstracta_23-2149054091.jpg?w=2000);
+  background-size: cover;
+  display: flex;
+  min-height: 80vw;
+  margin: -80px -50px 0 -50px;
+    
+}
+
+.form {
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 80%);
+  text-align: center;
+}
+
+.form-title {
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+
+.form-parrafo {
+  font-weight: 300;
+}
+
+.form-container {
+  margin-top: 3em;
+  display: grid;
+  gap: 2em;
+}
+
+.form-grup {
+  position: relative;
+  --color: #5757577e;
+}
+
+.form-input {
+  width: 100%;
+  background: none;
+  color: #706c6c;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid blueviolet;
+  font-family: "Sora", sans-serif;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-12px) scale(.7);
+  transform-origin: left top;
+  color: blueviolet;
+}
+
+.form-label {
+  position: absolute;
+  cursor: pointer;
+  color: var(--color);
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform .5s, color .3s;
+}
+
+.form-submit {
+  background-color: rgba(65, 0, 90);
+  color: white;
+  font-family: "Sora", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: .5em 0 ;
+  border: none;
+  border-radius: .5em;
+}
+
+
+
+/*background: url(https://w0.peakpx.com/wallpaper/849/414/HD-wallpaper-abstract-75-3d-art-abstract-abstract-art-abstractwalls-colorful-abstract-hop.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vw;*/
